@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#book{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+#container{
+    display: flex;
+    width: 650px;
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    height: 450px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.div{
+  
+    
+   
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#bola{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border-radius: transparent 1px ;
+    border-radius: 50%;
+}
+
+.quadrado{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+
+}
+
+#containerTotal{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: right;
+}
+
+
+#containerTotal1{
+    width: 600px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+#header{
+    background-color: rgb(46, 46, 104);
+    height: 60px;
+}
+
+#container-grande{
+   display: flex;
+   position: absolute; 
+   width: 100%;
+   height: 100%;
+  
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+
+
+#container-login{
+   
+    width: 650px;
+   
+    height: 450px;
+   
+    
+}
+
+#facebook{
+    width: 30px;
+    height: 30px;
+   
+    
+}
+
+.container-logo{
+    display: flex;
+    background-color:  rgb(46, 46, 104) ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+}
+
+#divs-logos{
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#after-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container-logo2{
+    display: flex;
+    background-color:  rgb(46, 46, 104) ;
+    margin-top: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#final-div{
+    margin-top: 10px;
+}
